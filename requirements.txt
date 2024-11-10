@@ -1,7 +1,7 @@
 tensorflow
 keras
 pandas
-numpy
+numpy==1.23.5
 jupyter
 notebook
 tqdm
