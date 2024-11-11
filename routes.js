@@ -1,6 +1,12 @@
 const router = require("express")();
 const {spawn} = require("child_process");
 const fs = require('fs');
+
+router.route("/").get((req,res)=>
+{
+    res.send("server response");
+});
+
 router.route("/ecg").post(async (req,res)=>
 {
     const b64S = req.body.b64S;
