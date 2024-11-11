@@ -3,7 +3,7 @@ const app = express();
 const cors = require('cors');
 app.use(cors(
     {
-        origin: "https://magnificent-custard-8347e1.netlify.app"
+        origin: "https://magical-melba-9b251c.netlify.app"
     }
 ));
 app.use(express.json({ limit: '50mb' })); 
