@@ -27,7 +27,7 @@ router.route("/ecg").post(async (req,res)=>
         console.error(`Error output from script: ${data}`);
     });
 });
-router.route("/lc").post(async (req,res)=>
+router.route("/lcd").post(async (req,res)=>
     {
         const b64S = req.body.b64S;
         await require("./saver.js")(b64S);
